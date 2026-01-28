@@ -14,7 +14,7 @@
 
 from flask import Flask, jsonify, request
 
-app = Flask(__name__) # criação da aplicação flask com o nome do arquivo atual.
+app = Flask(__name__) # creating a Flask application with the current filename.
 
 # dictionaries list
 books = [
